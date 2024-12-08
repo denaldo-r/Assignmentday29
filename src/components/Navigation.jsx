@@ -1,9 +1,10 @@
 import React from "react";
 
-const Navigation = ({ navLinks, loginText, signUpText }) => {
+const Navigation = ({ navLinks, loginText, signUpText, brand }) => {
   return (
     <nav className="flex items-center justify-between px-6 py-4 shadow-md bg-gray-50">
-      <div className="text-2xl font-bold text-green-600">Nexcent</div>
+      {/* <div className="text-2xl font-bold text-green-600">Nexcent</div> */}
+      <img src="Assignmentday29/src/assets/brand.png" alt="brand" />
       <ul className="flex space-x-6">
         {navLinks.map((link, index) => (
           <li

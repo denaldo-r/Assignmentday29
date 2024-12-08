@@ -6,6 +6,9 @@ import FeaturesSection from "./components/FeaturesSection";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 
+import Illustration from "./assets/illustration.png";
+import brand from "./assets/brand.png";
+
 const App = () => {
   const navLinks = [
     "Home",
@@ -36,10 +39,10 @@ const App = () => {
     },
   ];
   const clients = [
-    "/path/to/client1.png",
-    "/path/to/client2.png",
-    "/path/to/client3.png",
-    "/path/to/client4.png",
+    "Assignmentday29/src/assets/client1.png",
+    "Assignmentday29/src/assets/client2.png",
+    "Assignmentday29/src/assets/client3.png",
+    "Assignmentday29/src/assets/client4.png",
   ];
 
   const cards = [
@@ -92,7 +95,7 @@ const App = () => {
         title="Lessons and insights"
         subtitle="Where to grow your business as a photographer: site or social media?"
         buttonText="Register"
-        illustration="/path/to/illustration.png"
+        illustration={Illustration}
       />
       <ClientsSection clients={clients} />
       <FeaturesSection features={features} />
