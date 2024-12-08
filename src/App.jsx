@@ -7,7 +7,6 @@ import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 
 import Illustration from "./assets/illustration.png";
-import brand from "./assets/brand.png";
 
 const App = () => {
   const navLinks = [
@@ -47,20 +46,20 @@ const App = () => {
 
   const cards = [
     {
-      image: "path-to-image-1.jpg",
+      image: "Assignmentday29/src/assets/blog1.png",
       title: "Creating Streamlined Safeguarding Processes with OneRen",
       description: "Learn about OneRen's approach to safeguarding processes.",
       linkText: "Readmore",
     },
     {
-      image: "path-to-image-2.jpg",
+      image: "Assignmentday29/src/assets/blog2.png",
       title: "What are your safeguarding responsibilities?",
       description:
         "Understand how to manage your safeguarding responsibilities.",
       linkText: "Readmore",
     },
     {
-      image: "path-to-image-3.jpg",
+      image: "Assignmentday29/src/assets/blog3.png",
       title: "Revamping the Membership Model with Triathlon Australia",
       description: "Explore how Triathlon Australia revamped its model.",
       linkText: "Readmore",
