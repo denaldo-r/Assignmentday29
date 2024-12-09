@@ -83,7 +83,7 @@ const App = () => {
     },
     {
       title: "Stay up to date",
-      items: ["Your email address"],
+      items: [""],
     },
   ];
 
